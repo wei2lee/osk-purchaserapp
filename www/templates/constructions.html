@@ -16,7 +16,7 @@
         <div class="list card fade-in-animation" ng-repeat="construction in constructions | filter:{type:tabIndex}">
             <a ng-href="#/app/construction/{{construction.id}}" class="item item-icon-left item-thumbnail-left">
                 <img ng-src="{{construction.thumb}}">
-                <p>{{construction.displayName}}</p>
+                <p>{{construction.property.displayName}}</p>
             </a>
         </div>
     </ion-content>
