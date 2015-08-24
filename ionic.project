@@ -1,5 +1,5 @@
 {
-  "name": "hatten-purchaserapp",
+  "name": "osk-purchaserapp",
   "app_id": "com.infradesign.osk-purchaser",
   "gulpStartupTasks": [
     "sass",
